@@ -1,0 +1,21 @@
+﻿Type,mass,epsilon,sigma,alpha,Molecule,Description,Reference
+ODw,16,0.21094155,3.18395,0.978,swm4-ndp,SWM4-NDP O,https://doi.org/10.1016/j.cplett.2005.10.135
+HDw,1,0,0,0,swm4-ndp,SWM4-NDP H,https://doi.org/10.1016/j.cplett.2005.10.135
+MDw,0.001,0,0,0,swm4-ndp,SWM4-NDP M,https://doi.org/10.1016/j.cplett.2005.10.135
+polNa,23,0.1,2.876,0.25,,polarizable Na+,https://doi.org/10.1016/j.jcis.2007.09.097.
+polCl,35,0.1,4.45,3.25,,polarizable Cl-,https://aip.scitation.org/doi/pdf/10.1063/1.466363
+CC,12,0.0576,3.1256,0.616,CO3,polarizable Carbonate C,https://doi.org/10.1016/j.jcis.2007.09.097
+OC,16,0.1554,3.5532,0.434,CO3,polarizable Carbonate O,https://doi.org/10.1016/j.jcis.2007.09.098
+Na,23,0.124665,2.876,0,,Na+,https://pubs.acs.org/doi/10.1021/jp980642x
+Cl,35,0.124665,3.785,0,,Cl-,https://pubs.acs.org/doi/10.1021/jp980642x
+OT4P,16,0.16275,3.16435,0,tip4p/e,TIP4P/E O,https://doi.org/10.1063/1.1683075
+HT4P,1,0,0,0,tip4p/e,TIP4P/E H,https://doi.org/10.1063/1.1683075
+MT4P,0.001,0,0,0,tip4p/e,TIP4P/E M,https://doi.org/10.1063/1.1683075
+OSPC,16,0.1553,3.166,0,spc,SPC(/E) O,https://pubs.acs.org/doi/pdf/10.1021/j100308a038
+HSPC,1,0,0,0,spc,SPC(/E) H,https://pubs.acs.org/doi/pdf/10.1021/j100308a038
+bicarbH,1,0,0,0.135,HCO3,Bicarbonate H,https://doi.org/10.1016/j.jcis.2007.09.098
+bicarbC,12,0.0576,3.1256,0.616,HCO3,Bicarbonate C,https://doi.org/10.1016/j.jcis.2007.09.098
+bicarbOH,16,0.1554,3.5532,0.465,HCO3,Bicarbonate Hydroxyl O,https://doi.org/10.1016/j.jcis.2007.09.098
+bicarbO,16,0.1554,3.5532,0.434,HCO3,Bicarbonate O,https://doi.org/10.1016/j.jcis.2007.09.098
+OT3P,16,0.102,3.188,0,tip3p/e,TIP3P O,https://doi.org/10.1063/1.1808117
+HT3P,1,0,0,0,tip3p/e,TIP3P H,https://doi.org/10.1063/1.1808117
