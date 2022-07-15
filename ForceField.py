@@ -53,7 +53,7 @@ class ForceField:
         return self._type_list
 
     def __repr__(self):
-        return 'Masses:\n' + str(self._masses) + 'Coefficients:\n' + str(self._coefficients) + 'References:\n' + str(self._refs)
+        return 'Masses:\n' + str(self._masses) + '\nCoefficients:\n' + str(self._coefficients) + '\nReferences:\n' + str(self._refs)
 
     def _build_polarizable_types(self):
         self._polarizable_types = []
