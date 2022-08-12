@@ -1,4 +1,4 @@
-﻿Type,mass,epsilon,sigma,alpha,Molecule,Description,Reference
+Type,mass,epsilon,sigma,alpha,Molecule,Description,Reference
 ODw,16,0.21094155,3.18395,0.978,swm4-ndp,SWM4-NDP O,https://doi.org/10.1016/j.cplett.2005.10.135
 HDw,1,0,0,0,swm4-ndp,SWM4-NDP H,https://doi.org/10.1016/j.cplett.2005.10.135
 MDw,0.001,0,0,0,swm4-ndp,SWM4-NDP M,https://doi.org/10.1016/j.cplett.2005.10.135
@@ -19,3 +19,4 @@ bicarbOH,16,0.1554,3.5532,0.465,HCO3,Bicarbonate Hydroxyl O,https://doi.org/10.1
 bicarbO,16,0.1554,3.5532,0.434,HCO3,Bicarbonate O,https://doi.org/10.1016/j.jcis.2007.09.098
 OT3P,16,0.102,3.188,0,tip3p/e,TIP3P O,https://doi.org/10.1063/1.1808117
 HT3P,1,0,0,0,tip3p/e,TIP3P H,https://doi.org/10.1063/1.1808117
+Au,197,0.1,3.16435,0,,Au,
