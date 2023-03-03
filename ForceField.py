@@ -68,6 +68,7 @@ class ForceField:
             for t in self._polarizable_types:
                 self._pol_string += 'D '
 
+
     def _mass_ratio(self, label):
         if label[-1] == 'S':
             return self._drude_mass / self._db.loc[label[:-1], 'mass']
@@ -217,7 +218,7 @@ def identify_pol_type(i, type_list, polarizable_types):
         else:
             labeli = ati
     else:
-        ati = polarizable_types[num_elements - i]
+        ati = polarizable_types[i - num_elements]
         labeli = ati + 'S'
     return ati, labeli
 
