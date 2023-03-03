@@ -5,7 +5,7 @@ MDw,0.001,0,0,0,swm4-ndp,SWM4-NDP M,https://doi.org/10.1016/j.cplett.2005.10.135
 polNa,23,0.1,2.876,0.25,,polarizable Na+,https://doi.org/10.1016/j.jcis.2007.09.097.
 polCl,35,0.1,4.45,3.25,,polarizable Cl-,https://aip.scitation.org/doi/pdf/10.1063/1.466363
 CC,12,0.0576,3.1256,0.616,CO3,polarizable Carbonate C,https://doi.org/10.1016/j.jcis.2007.09.097
-OC,16,0.1554,3.5532,0.434,CO3,polarizable Carbonate O,https://doi.org/10.1016/j.jcis.2007.09.098
+OC,16,0.1554,3.5532,0.434,CO3,polarizable Carbonate O,https://doi.org/10.1016/j.jcis.2007.09.097
 Na,23,0.124665,2.876,0,,Na+,https://pubs.acs.org/doi/10.1021/jp980642x
 Cl,35,0.124665,3.785,0,,Cl-,https://pubs.acs.org/doi/10.1021/jp980642x
 OT4P,16,0.16275,3.16435,0,tip4p/e,TIP4P/E O,https://doi.org/10.1063/1.1683075
