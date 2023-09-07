@@ -20,17 +20,17 @@ bicarbO,16,0.1554,3.5532,0.434,HCO3,Bicarbonate O,https://doi.org/10.1016/j.jcis
 OT3P,16,0.102,3.188,0,tip3p/e,TIP3P O,https://doi.org/10.1063/1.1808117
 HT3P,1,0,0,0,tip3p/e,TIP3P H,https://doi.org/10.1063/1.1808117
 Au,197,0.1,3.16435,0,,Au,
-drudeLi,,0.03,1.95997717990875,0.032,,CHARMM Drude Li,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeNa,,0.03151,2.60441767666274,0.157,,CHARMM Drude Na,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeK,,0.1419265,3.00527238767742,0.83,,CHARMM Drude K,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeRb,,0.2730669,3.18141411139787,1.37,,CHARMM Drude Rb,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeCs,,0.2766036,3.60604049472895,2.36,,CHARMM Drude Cs,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeF,,0.0026181,4.3872139885862,1.786,,CHARMM Drude F,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeCl,,0.0719737,4.42084238614036,3.969,,CHARMM Drude Cl,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeBr,,0.0823440,4.67951375987394,5.262,,CHARMM Drude Br,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeI,,0.2084343,4.91414280626056,7.439,,CHARMM Drude I,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeZn,,0.25,1.66592322904499,0.42,,CHARMM Drude Zn,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeMg,,0.05,2.00704442826656,0.075,,CHARMM Drude Mg,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeCa,,0.21,2.26440653724397,0.49,,CHARMM Drude Ca,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeSr,,0.34,2.32692054393639,0.87,,CHARMM Drude Sr,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
-drudeBa,,0.6,2.80051962980364,1.56,,CHARMM Drude Ba,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeLi,7,0.03,1.95997717990875,0.032,,CHARMM Drude Li,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeNa,23,0.03151,2.60441767666274,0.157,,CHARMM Drude Na,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeK,39,0.1419265,3.00527238767742,0.83,,CHARMM Drude K,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeRb,85,0.2730669,3.18141411139787,1.37,,CHARMM Drude Rb,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeCs,133,0.2766036,3.60604049472895,2.36,,CHARMM Drude Cs,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeF,19,0.0026181,4.3872139885862,1.786,,CHARMM Drude F,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeCl,35,0.0719737,4.42084238614036,3.969,,CHARMM Drude Cl,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeBr,80,0.0823440,4.67951375987394,5.262,,CHARMM Drude Br,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeI,127,0.2084343,4.91414280626056,7.439,,CHARMM Drude I,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeZn,65,0.25,1.66592322904499,0.42,,CHARMM Drude Zn,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeMg,24,0.05,2.00704442826656,0.075,,CHARMM Drude Mg,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeCa,40,0.21,2.26440653724397,0.49,,CHARMM Drude Ca,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeSr,88,0.34,2.32692054393639,0.87,,CHARMM Drude Sr,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
+drudeBa,137,0.6,2.80051962980364,1.56,,CHARMM Drude Ba,https://pubs.acs.org/doi/epdf/10.1021/ct900576a
