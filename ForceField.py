@@ -175,7 +175,7 @@ class ForceField:
         else:
             printer('pair_style lj/cut/coul/long 12.0')
             pair_style = ''
-        printer('kspace_style pppm 1.0e-3')
+        printer('kspace_style pppm 1.0e-5')
         printer('')
 
         # Print Masses
