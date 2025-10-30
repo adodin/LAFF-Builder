@@ -7,14 +7,14 @@ import numpy as np
 
 fpe0 =  0.000719756                     # (4 Pi eps0) in e^2/(kJ/mol A)
 
-
 def arithmetic(x, y):
     return (x+y)/2
-
 
 def geometric(x, y):
     return np.sqrt(x*y)
 
+def sum(x, y):
+    return (x+y)
 
 def detect_drude(mratio):
     assert 0 <= mratio <= 1
