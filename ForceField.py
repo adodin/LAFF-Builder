@@ -13,7 +13,7 @@ default_db = ['./ff.csv']
 
 class ForceField:
     def __init__(self, type_list, polarizable=False, symmetrized=True, db_fnames=default_db,
-                 mixing_rules=(mr.arithmetic, mr.geometric, mr.geometric, mr.sum), drude_mass=0.8):
+                 mixing_rules=(mr.arithmetic, mr.geometric, mr.geometric, mr.arithmetic), drude_mass=0.8):
         # Collect Force Field Databases
         dbs = []
         for dbname in db_fnames:
