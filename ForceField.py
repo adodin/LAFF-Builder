@@ -13,7 +13,7 @@ default_db = ['./ff.csv']
 
 class ForceField:
     def __init__(self, type_list, polarizable=False, symmetrized=True, db_fnames=default_db,
-                 mixing_rules=(mr.arithmetic, mr.geometric, mr.geometric), drude_mass=0.8):
+                 mixing_rules=(mr.arithmetic, mr.geometric, mr.geometric, mr.sum), drude_mass=0.8):
         # Collect Force Field Databases
         dbs = []
         for dbname in db_fnames:
@@ -70,7 +70,7 @@ class ForceField:
 
 
     def _mass_ratio(self, label):
-        if label[-1] == 'S':
+        if label[-1] == 'D':
             return self._drude_mass / self._db.loc[label[:-1], 'mass']
         else:
             return 1 - self._drude_mass / self._db.loc[label[:-1], 'mass']
@@ -94,7 +94,7 @@ class ForceField:
         tuples, labels = [], []
         sigmas, epsilons = [], []
         if self._polarizable_types:
-            alphas = []
+            alphas, tholes = [], []
         for i in range(self._num_types):
             at_i, label_i = identify_pol_type(i, self._type_list, self._polarizable_types)
             if at_i in self._polarizable_types:
@@ -123,8 +123,9 @@ class ForceField:
                     )
                 if self._polarizable_types:
                     alphas.append(self._mixing_rules[2](self._db.loc[at_i, 'alpha'], self._db.loc[at_j, 'alpha']))
+                    tholes.append(self._mixing_rules[3](self._db.loc[at_i, 'thole'], self._db.loc[at_j, 'thole']))
         if self._polarizable_types:
-            data = {'sigma': sigmas, 'epsilon': epsilons, 'alpha': alphas, 'label': labels}
+            data = {'sigma': sigmas, 'epsilon': epsilons, 'alpha': alphas, 'thole': tholes, 'label': labels}
         else:
             data = {'sigma': sigmas, 'epsilon': epsilons, 'label': labels}
         index = pd.MultiIndex.from_tuples(tuples)
@@ -163,7 +164,7 @@ class ForceField:
 
         # Print Reference List
         printer('# FF References:')
-        for i, r in self._refs.iteritems():
+        for i, r in self._refs.items():
             printer('#      %s: %s' % (i, r))
         printer('')
 
@@ -195,7 +196,7 @@ class ForceField:
             printer('# Thole Screening')
             for i, r in self._coefficients.iterrows():
                 if r.alpha > 0:
-                    printer('pair_coeff %2d %2d thole %8.5f # %s' % (i[0], i[1], r.alpha, r.label))
+                    printer('pair_coeff %2d %2d thole %8.5f %8.3f # %s' % (i[0], i[1], r.alpha, r.thole, r.label))
 
         if fname:
             f.close()
@@ -219,6 +220,6 @@ def identify_pol_type(i, type_list, polarizable_types):
             labeli = ati
     else:
         ati = polarizable_types[i - num_elements]
-        labeli = ati + 'S'
+        labeli = ati + 'D'
     return ati, labeli
 
